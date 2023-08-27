@@ -24,7 +24,3 @@ These threads will communicate with each other using the Producer-Consumer appro
 - The program must **not** wait to produce the output only when the stop-processing line is received. Whenever there is sufficient data for an output line, the output line must be produced.
 - After the program receives the stop-processing line and before it terminates, the program must produce all 80 character lines it can still produce based on the input lines which were received *before* the stop-processing line, and have not yet been processed.
 - Program must only output lines with 80 characters with a line separator after.
-
-### Multi-Threading Requirements
-![image](https://github.com/wleejess/mtp/assets/29618012/33f297a9-4989-4494-94f1-f71bb4842774)
-
